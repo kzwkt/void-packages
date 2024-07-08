@@ -1,0 +1,13 @@
+# Template file for 'lifeograph'
+pkgname=lifeograph
+version=2.0.3
+revision=1
+build_style=meson
+hostmakedepends="pkg-config"
+makedepends="enchant2-devel gtkmm-devel libchamplain-devell"
+depends="enchant2 gtkmm libchamplain"
+short_desc="Private journal, diary and note taking application"
+maintainer="Ahmet Öztürk <aoz_2@yahoo.com>"
+license="GPL-3.0-or-later"
+homepage="https://lifeograph.sourceforge.net"
+distfiles="https://launchpad.net/lifeograph/trunk/${version}/+download/lifeograph-${version}.tar.xz"
